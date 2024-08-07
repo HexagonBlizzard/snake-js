@@ -1,0 +1,54 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+html {
+    background-color: #888888;
+}
+canvas {
+    position: absolute;
+    background-color: #000000;
+    aspect-ratio: 17 / 11;
+}
+#users {
+    opacity: 0.7;
+    position: absolute;
+    z-index: 100;
+    user-select: none;
+}
+#user1box {
+    height: 5.5vh;
+}
+#user2box {
+    height: 5.5vh;
+}
+.diskription {
+    font-size: 1.15vh;
+    margin: 0%;
+    margin-left: 2%;
+    color: #f13b35;
+}
+.username {
+    font-size: 2.55vh;
+    color: #a608db;
+    margin: 0%;
+}
+.usertext {
+    display: inline-table;
+    vertical-align: top;
+    margin: 0%;
+}
+#user1img {
+    display: inline;
+    position: relative;
+    height: max-content;
+    max-height: 100%;
+    border-radius: 5%;
+}
+#user2img {
+    display: inline;
+    position: relative;
+    height: max-content;
+    max-height: 100%;
+    border-radius: 5%;
+}
